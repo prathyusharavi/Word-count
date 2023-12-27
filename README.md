@@ -21,13 +21,14 @@ Calling the function and Printing the number of words.
 Program to find the word count.
 #Developed by: YENUGANTI PRATHYUSHA
 #RegisterNumber:23009045
+```
 num_words=0
 with open("text.txt",'r') as f1:
     for i in f1:
         word=i.split()
         num_words+= len(word)
     print("Number of words in the file = {}".format(num_words)) 
-
+```
 
 ### OUTPUT:
 ![image](https://github.com/prathyusharavi/Word-count/assets/147474424/ac095217-ea6c-4adc-a362-f1d848950c34)
