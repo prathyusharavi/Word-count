@@ -21,12 +21,12 @@ Calling the function and Printing the number of words.
 Program to find the word count.
 #Developed by: YENUGANTI PRATHYUSHA
 #RegisterNumber:23009045
-num_word=0
-with open ("sample.txt",'r') as f:
-for i in f:
-word=i.split()
-num_word+=len(word)
-print("number of words ={}".format(num_word)
+num_words=0
+with open("text.txt",'r') as f1:
+    for i in f1:
+        word=i.split()
+        num_words+= len(word)
+    print("Number of words in the file = {}".format(num_words)) 
 
 
 ### OUTPUT:
